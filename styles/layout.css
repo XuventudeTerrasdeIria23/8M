@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Patrick Hand SC", cursive;
+	font-weight: 400;
+	font-style: normal;
+	color: beige;
+	background-color: #000;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.nostart {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+
+.clear {
+	display: inline-block;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper {
+	display: block;
+	width: auto;
+	margin: 0;
+	text-align: left;
+	font-family: "Patrick Hand SC", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.1em;
+	color: beige;
+	background: #000;
+}
+
+.col1 {
+	color: beige;
+	background-color: #000;
+	padding-bottom: 30px;
+}
+
+.col1 > p.category {
+	line-height: 1.6em;
+	margin: 0 0 12px 0;
+	color: beige;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0.5em;
+}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#header,
+#footer,
+#copyright {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header {
+	padding: auto;
+	border-bottom: 1px solid #464646;
+}
+
+#header h1,
+#header p,
+#header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	color: rgb(99%, 0%, 100%);
+	text-align: center;
+	font-size: 2em;
+}
+
+#header h1 a {
+	font-size: 2em;
+	color: #CCCCCC;
+	background-color: #000;
+}
+
+
+
+
+/* ----------------------------------------------Footer------------------------------------- */
+/*
+#footer {
+	padding: .5em;
+}
+
+#footer h2,
+#footer p,
+#footer ul,
+#footer a {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	list-style: none;
+	line-height: 1.6em;
+	font-style: normal;
+}
+
+#footer,
+#footer a {
+	color: #666666;
+	background-color: #161616;
+}
+
+#footer .footbox {
+	display: block;
+	float: left;
+	width: 225px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#footer h2 {
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-style: italic;
+}
+
+#footer p {
+	margin-bottom: 10px;
+}
+
+#footer li {
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid (99%, 0%, 100%);
+}
+
+#footer li strong.title {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#footer .last {
+	margin: 0;
+}*/
+
+/* ---------------------------------------- Copyright ------------------------------- */
+
+#copyright {
+	padding: .5em;
+	display: block;
+	text-align: center;
+	border-top: 1px solid rgb(99%, 0%, 100%);
+	border-top: 1px solid #464646;
+}
+
+#copyright p {
+	margin: 0;
+	padding: 0;
+}
+
+#copyright,
+#copyright a {
+	color: #666666;
+	background-color: #000;
+}
+
+#copyright img {
+	margin: 0;
+	padding: 0;
+	width: 70%;
+}
